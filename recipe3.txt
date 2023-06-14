@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Receta 3</title>
+  <style>
+    body {
+      font-family: Calibri, Arial, sans-serif;
+      background-color: white;
+      color: #333333;
+    }
+    
+    h1 {
+      color: black;
+      text-align: center;
+      padding: 20px;
+      background-color: #daedd9;
+      margin: 0;
+    }
+    
+    .recipe-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: white;
+      border: 1px solid #999999;
+      border-radius: 8px;
+    }
+    
+    .recipe-section {
+      margin-bottom: 20px;
+    }
+    
+    .recipe-section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .return-button {
+      display: block;
+      width: 150px;
+      margin: 20px auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #daedd9;
+      color: black;
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Volovanes</h1>
+  
+  <div class="recipe-container">
+    <div class="recipe-section">
+      <h2 class="recipe-section-title">Ingredientes</h2>
+      <ul>
+        <li>¼  Pasta hojaldre</li>
+        <li>Un frasco pequeño de mayonesa</li>
+       <li>Rajas de chiles en vinagre</li>
+       <li>Queso amarillo</li>
+       <li>Cátsup</li>
+       <li>1 Huevo</li>
+        <li>¼  Jamón</li>
+        <li>Piña</li>
+      </ul>
+    </div>
+    
+    <div class="recipe-section">
+      <h2 class="recipe-section-title">Manera de preparar</h2>
+      <ol>
+        <li>Partir la pasta a la mitad, estirar con suficiente harina y colocar sobre una charola engrasada, ya que está estirada cortar la masa para que no se esponje.</li>
+        <li>Agregar mayonesa y cátsup en partes iguales hasta formar una salsa rosa, agregar el jamón, el queso amarillo, los chiles y la piña.</li>
+        <li>Estirar la otra parte de la pasta y la colocar encima de la charola, barnizar con un huevo.</li>
+        <li>Hornear a 200°C por 20 minutos.</li>
+      </ol>
+    </div>
+    
+    <a class="return-button" href="index.html">Regresar</a>
+  </div>
+</body>
+</html>
